@@ -14,3 +14,11 @@ if (first > second) {
 } else {
   document.querySelector("h1").innerHTML = "Player Two wins";
 }
+
+document.getElementById("click").onclick = function () {
+  click();
+};
+
+function click() {
+  location.reload();
+}
